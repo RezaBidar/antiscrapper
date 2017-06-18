@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} \.php$
+RewriteRule .* ../public_html/index.php/?url=$0 [PT,L,QSA]
